@@ -223,10 +223,24 @@ themeButton.addEventListener("click", () => {
 
 //the changing text
 
-const autoText=new Typed('.changing-text', {
-  strings: ['Bienvenue sur ma chaine', 'So if you are looking for', 'Azam Asrarov or Avraam Szaro', 'then you are in right place'],
+const autoText1=new Typed('.changing-text1', {
+  strings: ['Hello, I\'m Azam Asrarov or Avraam Szaro'],
   typeSpeed: 100,
-  backSpeed: 100,
-  loop: true
+  backSpeed: 50,
+  loop: fase
+
+})
+const autoText2=new Typed('.changing-text2', {
+  strings: ['Привет, Я Аъзам Асраров или Авраам Сзаро'],
+  typeSpeed: 100,
+  backSpeed: 50,
+  loop: fase
+
+})
+const autoText3=new Typed('.changing-text3', {
+  strings: ['Bonjour, je suis Azam Asrarov ou Avraam Szaro'],
+  typeSpeed: 100,
+  backSpeed: 50,
+  loop: fase
 
 })
