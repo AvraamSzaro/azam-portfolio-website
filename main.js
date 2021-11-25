@@ -218,3 +218,15 @@ themeButton.addEventListener("click", () => {
   localStorage.setItem("selected-theme", getCurrentTheme());
   localStorage.setItem("selected-icon", getCurrentIcon());
 });
+
+
+
+//the changing text
+
+const autoText=new Typed('.changing-text', {
+  strings: ['Bienvenue sur ma chaine', 'So if you are looking for', 'Azam Asrarov or Avraam Szaro', 'then you are in right place'],
+  typeSpeed: 100,
+  backSpeed: 100,
+  loop: true,
+
+})
