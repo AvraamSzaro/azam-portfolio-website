@@ -227,6 +227,6 @@ const autoText=new Typed('.changing-text', {
   strings: ['Bienvenue sur ma chaine', 'So if you are looking for', 'Azam Asrarov or Avraam Szaro', 'then you are in right place'],
   typeSpeed: 100,
   backSpeed: 100,
-  loop: true,
+  loop: true
 
 })
