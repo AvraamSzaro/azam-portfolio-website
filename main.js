@@ -224,7 +224,7 @@ themeButton.addEventListener("click", () => {
 //the changing text
 
 const autoText1=new Typed('.changing-text1', {
-  strings: ['Hey👋', 'Wassup y\'all', 'how\'s it goin'],
+  strings: ['Hey👋', 'Wassup y\'all', 'How\'s it goin'],
   typeSpeed: 120,
   backSpeed: 80,
   loop: true
